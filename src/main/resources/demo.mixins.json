@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.emeraldingot.demo.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"RunArgsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

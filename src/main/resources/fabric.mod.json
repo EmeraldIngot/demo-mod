@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "demo",
+	"version": "${version}",
+	"name": "Demo Mod",
+	"description": "Wait, I thought I payed for Minecraft!",
+	"authors": [
+		"EmeraldIngot"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/EmeraldIngot/demo-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/demo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.emeraldingot.demo.Demo"
+		]
+	},
+	"mixins": [
+		"demo.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
