@@ -11,6 +11,6 @@ Just add it to your mods folder and it will work
 
 # Downloads
 
-[Releases]()    
+[Releases](https://github.com/EmeraldIngot/demo-mod/releases/tag/v1.0.0-backport)    
 [Curseforge - Coming soon]()    
 [Modrinth - Coming soon]()
