@@ -11,7 +11,7 @@
 		"homepage": "",
 		"sources": "https://github.com/EmeraldIngot/demo-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/demo/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,12 +23,11 @@
 		"demo.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.10",
-		"minecraft": "~1.20.5",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.18",
+		"java": ">=17"
 	},
-	"suggests": {
-		"another-mod": "*"
+	"breaks": {
+		"minecraft": ">=1.20.5"
 	}
 }
