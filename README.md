@@ -11,6 +11,6 @@ Just add it to your mods folder and it will work
 
 # Downloads
 
-[Releases]()
-[Curseforge](https://www.curseforge.com)    
-[Modrinth](https://www.modrinth.com)
+[Releases]()    
+[Curseforge - Coming soon]()    
+[Modrinth - Coming soon]()
